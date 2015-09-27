@@ -26,7 +26,7 @@ class DetailViewController: UIViewController {
     
 //Errors will start going away from MasterViewController
 //3) Add didSet for productName
-    var productName: NSString? {
+    var productName: String? {
         didSet {
          
         }
@@ -44,7 +44,7 @@ class DetailViewController: UIViewController {
     func configureView() {
         // Update image if detailItem has been passed a value from MasterViewController Seque
         if let detail: AnyObject = self.detailItem {
-             productImageView.image = UIImage(named:productURL!)
+             productImageView.image = UIImage(named:productURL! as String)
         
         }
     }
@@ -53,13 +53,13 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        println("Product URL: \(productURL)")
-        println("Product Name: \(productName)")
+        print("Product URL: \(productURL)")
+        print("Product Name: \(productName)")
         if productName == nil
         {
             productImageView.image = UIImage(named:"Main.png")
         }
-        title = productName
+       title = productName
         self.configureView()
     }
 
