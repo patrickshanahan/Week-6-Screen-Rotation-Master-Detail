@@ -46,7 +46,7 @@ listArray = ["Joe Cocker","Leonard Skynard","Eagles","Journey", "38 Special","Mi
         title = "My Favorite Bands"
        
         let controllers = self.splitViewController!.viewControllers
-        self.detailViewController = controllers[controllers.count-1].topViewController as? DetailViewController
+        self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
     }
 
     override func didReceiveMemoryWarning() {
@@ -67,15 +67,15 @@ listArray = ["Joe Cocker","Leonard Skynard","Eagles","Journey", "38 Special","Mi
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showDetail" {
-            if let indexPath = self.tableView.indexPathForSelectedRow() {
+            if let indexPath = self.tableView.indexPathForSelectedRow {
 //8) Replace object with listArray and NSDate with NSString
-                let object = listArray[indexPath.row] as NSString
-                let controller = (segue.destinationViewController as UINavigationController).topViewController as DetailViewController
+                let object = listArray[indexPath.row] as! NSString
+                let controller = (segue.destinationViewController as! UINavigationController).topViewController as! DetailViewController
                 
 //9) Add 3 lines of code to populate Name and URL. Ignore Error lines
                 controller.detailItem = object
-                 controller.productName = object
-                controller.productURL = object + ".jpg"
+                 controller.productName = object as String
+                controller.productURL = (object as String) + ".jpg"
                 
                 controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
                 controller.navigationItem.leftItemsSupplementBackButton = true
@@ -104,8 +104,8 @@ listArray = ["Joe Cocker","Leonard Skynard","Eagles","Journey", "38 Special","Mi
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
 
-        let object = listArray[indexPath.row] as NSString
-        cell.textLabel.text = object.description
+        let object = listArray[indexPath.row] as! NSString
+        cell.textLabel!.text = object.description
         return cell
     }
 
