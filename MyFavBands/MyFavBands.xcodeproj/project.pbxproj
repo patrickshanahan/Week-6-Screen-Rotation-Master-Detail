@@ -14,22 +14,16 @@
 		368766A21A8F97200026EE69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368766A11A8F97200026EE69 /* Images.xcassets */; };
 		368766A51A8F97200026EE69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 368766A31A8F97200026EE69 /* LaunchScreen.xib */; };
 		368766B11A8F97200026EE69 /* MyFavBandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368766B01A8F97200026EE69 /* MyFavBandsTests.swift */; };
-		368766C31A8FA7E70026EE69 /* 38 Special.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368766BB1A8FA7E70026EE69 /* 38 Special.jpg */; };
-		368766C41A8FA7E70026EE69 /* Band Perry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368766BC1A8FA7E70026EE69 /* Band Perry.jpg */; };
-		368766C51A8FA7E70026EE69 /* Eagles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368766BD1A8FA7E70026EE69 /* Eagles.jpg */; };
-		368766C61A8FA7E70026EE69 /* Joe Cocker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368766BE1A8FA7E70026EE69 /* Joe Cocker.jpg */; };
-		368766C71A8FA7E70026EE69 /* Journey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368766BF1A8FA7E70026EE69 /* Journey.jpg */; };
-		368766C81A8FA7E70026EE69 /* Leonard Skynard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368766C01A8FA7E70026EE69 /* Leonard Skynard.jpg */; };
-		368766C91A8FA7E70026EE69 /* Little Big Town.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368766C11A8FA7E70026EE69 /* Little Big Town.jpg */; };
-		368766CA1A8FA7E70026EE69 /* Miranda Lambert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368766C21A8FA7E70026EE69 /* Miranda Lambert.jpg */; };
-		368766CC1A8FB4410026EE69 /* Main.png in Resources */ = {isa = PBXBuildFile; fileRef = 368766CB1A8FB4410026EE69 /* Main.png */; };
-		36AD81311A92DFFF00430259 /* 45647127.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36AD81301A92DFFF00430259 /* 45647127.jpg */; };
-		36BC61CE1A90A742001F908B /* logo291.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BC61CA1A90A742001F908B /* logo291.png */; };
-		36BC61CF1A90A742001F908B /* logo292.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BC61CB1A90A742001F908B /* logo292.png */; };
-		36BC61D01A90A742001F908B /* logo401.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BC61CC1A90A742001F908B /* logo401.png */; };
-		36BC61D31A90A777001F908B /* logo402.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BC61D21A90A777001F908B /* logo402.png */; };
-		36BC61D51A90A8AF001F908B /* logo76.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BC61D41A90A8AF001F908B /* logo76.png */; };
-		36BC61D71A90A953001F908B /* logo152.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BC61D61A90A953001F908B /* logo152.png */; };
+		908E1E511DA01FF0000C0924 /* bloodborne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 908E1E471DA01FF0000C0924 /* bloodborne.jpg */; };
+		908E1E521DA01FF0000C0924 /* dark souls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 908E1E481DA01FF0000C0924 /* dark souls.jpg */; };
+		908E1E531DA01FF0000C0924 /* doom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 908E1E491DA01FF0000C0924 /* doom.jpg */; };
+		908E1E541DA01FF0000C0924 /* GTA5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 908E1E4A1DA01FF0000C0924 /* GTA5.jpg */; };
+		908E1E551DA01FF0000C0924 /* halo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 908E1E4B1DA01FF0000C0924 /* halo.jpg */; };
+		908E1E561DA01FF0000C0924 /* hearthstone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 908E1E4C1DA01FF0000C0924 /* hearthstone.jpg */; };
+		908E1E571DA01FF0000C0924 /* lastofus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 908E1E4D1DA01FF0000C0924 /* lastofus.jpg */; };
+		908E1E581DA01FF0000C0924 /* league.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 908E1E4E1DA01FF0000C0924 /* league.jpg */; };
+		908E1E591DA01FF0000C0924 /* portal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 908E1E4F1DA01FF0000C0924 /* portal.jpg */; };
+		908E1E5A1DA01FF0000C0924 /* wow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 908E1E501DA01FF0000C0924 /* wow.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,22 +48,16 @@
 		368766AA1A8F97200026EE69 /* MyFavBandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFavBandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		368766AF1A8F97200026EE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		368766B01A8F97200026EE69 /* MyFavBandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavBandsTests.swift; sourceTree = "<group>"; };
-		368766BB1A8FA7E70026EE69 /* 38 Special.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "38 Special.jpg"; sourceTree = "<group>"; };
-		368766BC1A8FA7E70026EE69 /* Band Perry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Band Perry.jpg"; sourceTree = "<group>"; };
-		368766BD1A8FA7E70026EE69 /* Eagles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eagles.jpg; sourceTree = "<group>"; };
-		368766BE1A8FA7E70026EE69 /* Joe Cocker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Joe Cocker.jpg"; sourceTree = "<group>"; };
-		368766BF1A8FA7E70026EE69 /* Journey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Journey.jpg; sourceTree = "<group>"; };
-		368766C01A8FA7E70026EE69 /* Leonard Skynard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Leonard Skynard.jpg"; sourceTree = "<group>"; };
-		368766C11A8FA7E70026EE69 /* Little Big Town.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Little Big Town.jpg"; sourceTree = "<group>"; };
-		368766C21A8FA7E70026EE69 /* Miranda Lambert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Miranda Lambert.jpg"; sourceTree = "<group>"; };
-		368766CB1A8FB4410026EE69 /* Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Main.png; sourceTree = "<group>"; };
-		36AD81301A92DFFF00430259 /* 45647127.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 45647127.jpg; sourceTree = "<group>"; };
-		36BC61CA1A90A742001F908B /* logo291.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo291.png; sourceTree = "<group>"; };
-		36BC61CB1A90A742001F908B /* logo292.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo292.png; sourceTree = "<group>"; };
-		36BC61CC1A90A742001F908B /* logo401.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo401.png; sourceTree = "<group>"; };
-		36BC61D21A90A777001F908B /* logo402.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo402.png; sourceTree = "<group>"; };
-		36BC61D41A90A8AF001F908B /* logo76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo76.png; sourceTree = "<group>"; };
-		36BC61D61A90A953001F908B /* logo152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo152.png; sourceTree = "<group>"; };
+		908E1E471DA01FF0000C0924 /* bloodborne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bloodborne.jpg; path = ../../bloodborne.jpg; sourceTree = "<group>"; };
+		908E1E481DA01FF0000C0924 /* dark souls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dark souls.jpg"; path = "../../dark souls.jpg"; sourceTree = "<group>"; };
+		908E1E491DA01FF0000C0924 /* doom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = doom.jpg; path = ../../doom.jpg; sourceTree = "<group>"; };
+		908E1E4A1DA01FF0000C0924 /* GTA5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GTA5.jpg; path = ../../GTA5.jpg; sourceTree = "<group>"; };
+		908E1E4B1DA01FF0000C0924 /* halo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = halo.jpg; path = ../../halo.jpg; sourceTree = "<group>"; };
+		908E1E4C1DA01FF0000C0924 /* hearthstone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hearthstone.jpg; path = ../../hearthstone.jpg; sourceTree = "<group>"; };
+		908E1E4D1DA01FF0000C0924 /* lastofus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lastofus.jpg; path = ../../lastofus.jpg; sourceTree = "<group>"; };
+		908E1E4E1DA01FF0000C0924 /* league.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = league.jpg; path = ../../league.jpg; sourceTree = "<group>"; };
+		908E1E4F1DA01FF0000C0924 /* portal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = portal.jpg; path = ../../portal.jpg; sourceTree = "<group>"; };
+		908E1E501DA01FF0000C0924 /* wow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wow.jpg; path = ../../wow.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,16 +140,16 @@
 		368766BA1A8FA7C50026EE69 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				36AD81301A92DFFF00430259 /* 45647127.jpg */,
-				368766CB1A8FB4410026EE69 /* Main.png */,
-				368766BB1A8FA7E70026EE69 /* 38 Special.jpg */,
-				368766BC1A8FA7E70026EE69 /* Band Perry.jpg */,
-				368766BD1A8FA7E70026EE69 /* Eagles.jpg */,
-				368766BE1A8FA7E70026EE69 /* Joe Cocker.jpg */,
-				368766BF1A8FA7E70026EE69 /* Journey.jpg */,
-				368766C01A8FA7E70026EE69 /* Leonard Skynard.jpg */,
-				368766C11A8FA7E70026EE69 /* Little Big Town.jpg */,
-				368766C21A8FA7E70026EE69 /* Miranda Lambert.jpg */,
+				908E1E471DA01FF0000C0924 /* bloodborne.jpg */,
+				908E1E481DA01FF0000C0924 /* dark souls.jpg */,
+				908E1E491DA01FF0000C0924 /* doom.jpg */,
+				908E1E4A1DA01FF0000C0924 /* GTA5.jpg */,
+				908E1E4B1DA01FF0000C0924 /* halo.jpg */,
+				908E1E4C1DA01FF0000C0924 /* hearthstone.jpg */,
+				908E1E4D1DA01FF0000C0924 /* lastofus.jpg */,
+				908E1E4E1DA01FF0000C0924 /* league.jpg */,
+				908E1E4F1DA01FF0000C0924 /* portal.jpg */,
+				908E1E501DA01FF0000C0924 /* wow.jpg */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -169,12 +157,6 @@
 		36BC61C91A90A733001F908B /* icons */ = {
 			isa = PBXGroup;
 			children = (
-				36BC61D61A90A953001F908B /* logo152.png */,
-				36BC61D41A90A8AF001F908B /* logo76.png */,
-				36BC61D21A90A777001F908B /* logo402.png */,
-				36BC61CA1A90A742001F908B /* logo291.png */,
-				36BC61CB1A90A742001F908B /* logo292.png */,
-				36BC61CC1A90A742001F908B /* logo401.png */,
 			);
 			name = icons;
 			sourceTree = "<group>";
@@ -262,25 +244,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				368766CC1A8FB4410026EE69 /* Main.png in Resources */,
-				368766C91A8FA7E70026EE69 /* Little Big Town.jpg in Resources */,
-				36BC61D51A90A8AF001F908B /* logo76.png in Resources */,
-				368766C61A8FA7E70026EE69 /* Joe Cocker.jpg in Resources */,
+				908E1E521DA01FF0000C0924 /* dark souls.jpg in Resources */,
+				908E1E551DA01FF0000C0924 /* halo.jpg in Resources */,
 				368766A01A8F97200026EE69 /* Main.storyboard in Resources */,
-				368766C41A8FA7E70026EE69 /* Band Perry.jpg in Resources */,
-				36AD81311A92DFFF00430259 /* 45647127.jpg in Resources */,
-				36BC61D31A90A777001F908B /* logo402.png in Resources */,
-				368766C31A8FA7E70026EE69 /* 38 Special.jpg in Resources */,
-				36BC61CF1A90A742001F908B /* logo292.png in Resources */,
+				908E1E561DA01FF0000C0924 /* hearthstone.jpg in Resources */,
+				908E1E541DA01FF0000C0924 /* GTA5.jpg in Resources */,
 				368766A51A8F97200026EE69 /* LaunchScreen.xib in Resources */,
-				368766C51A8FA7E70026EE69 /* Eagles.jpg in Resources */,
-				368766C81A8FA7E70026EE69 /* Leonard Skynard.jpg in Resources */,
-				368766CA1A8FA7E70026EE69 /* Miranda Lambert.jpg in Resources */,
-				368766C71A8FA7E70026EE69 /* Journey.jpg in Resources */,
-				36BC61CE1A90A742001F908B /* logo291.png in Resources */,
+				908E1E511DA01FF0000C0924 /* bloodborne.jpg in Resources */,
 				368766A21A8F97200026EE69 /* Images.xcassets in Resources */,
-				36BC61D01A90A742001F908B /* logo401.png in Resources */,
-				36BC61D71A90A953001F908B /* logo152.png in Resources */,
+				908E1E571DA01FF0000C0924 /* lastofus.jpg in Resources */,
+				908E1E591DA01FF0000C0924 /* portal.jpg in Resources */,
+				908E1E5A1DA01FF0000C0924 /* wow.jpg in Resources */,
+				908E1E581DA01FF0000C0924 /* league.jpg in Resources */,
+				908E1E531DA01FF0000C0924 /* doom.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

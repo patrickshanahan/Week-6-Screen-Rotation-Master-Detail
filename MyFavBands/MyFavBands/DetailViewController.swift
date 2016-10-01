@@ -63,7 +63,7 @@ class DetailViewController: UIViewController {
         print("Product Name: \(productName)")
         if productName == nil
         {
-            productImageView.image = UIImage(named:"Main.png")
+            productImageView.image = UIImage(named:"doom.jpg")
         }
         title = productName
         self.configureView()

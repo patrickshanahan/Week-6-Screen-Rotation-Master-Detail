@@ -28,7 +28,7 @@ class MasterViewController: UITableViewController {
         
         //4) Populate Array of band names from images you downloaded. Names must match file names without file extenstion .jpg
         
-        listArray = ["Joe Cocker","Leonard Skynard","Eagles","Journey", "38 Special","Miranda Lambert", "Little Big Town","Band Perry"]
+        listArray = ["doom","bloodborne","lastofus","portal", "wow","halo", "dark souls","GTA5", "league", "hearthstone"]
         
         //5) Comment out Add Button - 2 lines
         
@@ -37,7 +37,7 @@ class MasterViewController: UITableViewController {
         //self.navigationItem.rightBarButtonItem = addButton
         
         //6) Add Title
-        title = "My Favorite Bands"
+        title = "My Favorite Games"
         
         if let split = self.splitViewController {
             let controllers = split.viewControllers
